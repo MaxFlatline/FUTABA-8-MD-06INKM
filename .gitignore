@@ -1,7 +1,17 @@
+# Keil
+*.base@*
+*.uvguix.*
+*.uvoptx
+*.scvd
+
+# Backup
+*.bak
+
 # Prerequisites
 *.d
 
 # Object files
+Objects/
 *.o
 *.ko
 *.obj
