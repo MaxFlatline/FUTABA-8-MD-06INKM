@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath></IncludePath>
+              <IncludePath>..\..\..\..\Drivers\FUTABA_8_MD_06INKM_Driver\inc;..\..\..\..\Drivers\MCU_SPI\inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -415,16 +415,14 @@
           <GroupName>Driver\Futaba\8-MD-06INKM</GroupName>
           <Files>
             <File>
-              <FileName>8_MD_06INKM.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\..\..\Drivers\inc\8_MD_06INKM.h</FilePath>
-            </File>
-            <File>
               <FileName>8_MD_06INKM.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\..\Drivers\src\8_MD_06INKM.c</FilePath>
+              <FilePath>..\..\..\..\Drivers\FUTABA_8_MD_06INKM_Driver\src\8_MD_06INKM.c</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>Driver\SPI Driver</GroupName>
         </Group>
         <Group>
           <GroupName>::CMSIS</GroupName>
