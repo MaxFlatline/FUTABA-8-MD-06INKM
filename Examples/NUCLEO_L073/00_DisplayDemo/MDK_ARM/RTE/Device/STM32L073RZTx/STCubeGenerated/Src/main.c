@@ -26,7 +26,7 @@
 #include "EventRecorder.h"            
 #endif  
 #include "cmsis_os2.h" 
-extern void app_main (void* arg); 
+#include "DisplayDemo.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -96,7 +96,6 @@ HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority) {
   */
 int main(void)
 {
-
   /* USER CODE BEGIN 1 */
 
   /* USER CODE END 1 */
@@ -125,7 +124,7 @@ int main(void)
   #endif  
   SystemCoreClockUpdate();
   osKernelInitialize();                 // Initialize CMSIS-RTOS
-  osThreadNew(app_main, NULL, NULL);    // Create application main thread
+  app_displayDemo_init();               // Create application thread
   osKernelStart();
   /* USER CODE END 2 */
 

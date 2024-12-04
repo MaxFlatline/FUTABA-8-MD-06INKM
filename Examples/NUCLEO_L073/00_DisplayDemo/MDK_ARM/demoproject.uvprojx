@@ -338,9 +338,9 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define></Define>
+              <Define>DEBUG</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\..\Drivers\FUTABA_8_MD_06INKM_Driver\inc;..\..\..\..\Drivers\MCU_SPI\inc</IncludePath>
+              <IncludePath>..\..\..\..\Drivers\FUTABA_8_MD_06INKM_Driver\inc;..\..\..\..\Drivers\MCU_SPI\inc;..\..\..\..\Applications\00_DisplayDemo\inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>

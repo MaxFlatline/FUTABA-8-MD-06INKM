@@ -3,3 +3,4 @@
 // Author: Hodnenko M.I.
 // Date: 03.12.2024
 
+#include "8_MD_06INKM.h"
